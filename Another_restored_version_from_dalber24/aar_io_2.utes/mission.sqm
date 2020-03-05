@@ -1,0 +1,375 @@
+version=11;
+class Mission
+{
+	addOns[]=
+	{
+		"cacharacters2",
+		"utes",
+		"ca_highcommand",
+		"CAWheeled2_Ikarus",
+		"CAWheeled"
+	};
+	addOnsAuto[]=
+	{
+		"cacharacters2",
+		"CAWheeled",
+		"utes"
+	};
+	randomSeed=12491228;
+	class Intel
+	{
+		briefingName="Arma2 AAR Alpha Demo 2";
+		briefingDescription="Rec'n'Play yer buttle";
+		startWeather=0;
+		forecastWeather=0;
+		year=2010;
+		month=11;
+		day=21;
+		hour=11;
+		minute=10;
+	};
+	class Groups
+	{
+		items=3;
+		class Item0
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={4336.332,27,3198.877};
+					azimut=-401.21237;
+					special="NONE";
+					id=0;
+					side="EAST";
+					vehicle="RU_Soldier_SL";
+					player="PLAY CDG";
+					leader=1;
+					rank="COLONEL";
+					skill=0.59999996;
+					text="recorder";
+					description="Recorder";
+				};
+				class Item1
+				{
+					position[]={4334.1797,27,3201.2207};
+					azimut=-0.37738931;
+					special="NONE";
+					id=3;
+					side="EAST";
+					vehicle="RU_Soldier";
+					rank="SERGEANT";
+					skill=0.46666664;
+					text="RU_soldier_8";
+					init="commandStop this;";
+				};
+				class Item2
+				{
+					position[]={4334.5591,27,3197.2185};
+					azimut=-26.140659;
+					special="NONE";
+					id=1;
+					side="EAST";
+					vehicle="RU_Soldier_MG";
+					player="PLAY CDG";
+					rank="SERGEANT";
+					skill=0.46666664;
+					text="RU_soldier_5";
+					init="commandStop this;";
+					description="A AI soldier";
+				};
+				class Item3
+				{
+					position[]={4334.3481,27,3199.9241};
+					azimut=8.5157099;
+					special="NONE";
+					id=2;
+					side="EAST";
+					vehicle="RU_Soldier_SL";
+					rank="SERGEANT";
+					skill=0.46666664;
+					text="RU_soldier_6";
+					init="commandStop this;";
+				};
+			};
+			class Waypoints
+			{
+				items=1;
+				class Item0
+				{
+					position[]={4335.4199,27,3199.9265};
+					type="HOLD";
+					combatMode="BLUE";
+					speed="LIMITED";
+					combat="AWARE";
+					visible=1;
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+			};
+		};
+		class Item1
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=5;
+				class Item0
+				{
+					position[]={4377.6587,27.430492,3264.3394};
+					azimut=83.05204;
+					special="NONE";
+					id=6;
+					side="WEST";
+					vehicle="USMC_Soldier";
+					skill=0.60000002;
+					text="US_Soldier_1";
+				};
+				class Item1
+				{
+					position[]={4363.2993,27,3250.4722};
+					azimut=75.875702;
+					special="NONE";
+					id=4;
+					side="WEST";
+					vehicle="USMC_Soldier_SL";
+					leader=1;
+					rank="MAJOR";
+					skill=0.60000002;
+					text="US_Soldier_C";
+				};
+				class Item2
+				{
+					position[]={4347.0732,27,3235.9192};
+					azimut=-110.57068;
+					special="NONE";
+					id=7;
+					side="WEST";
+					vehicle="USMC_Soldier";
+					rank="MAJOR";
+					skill=0.60000002;
+					text="US_Soldier_2";
+				};
+				class Item3
+				{
+					position[]={4360.9419,27,3255.1458};
+					azimut=289.25189;
+					special="NONE";
+					id=8;
+					side="WEST";
+					vehicle="USMC_Soldier";
+					rank="MAJOR";
+					skill=0.60000002;
+					text="US_Soldier_3";
+				};
+				class Item4
+				{
+					position[]={4367.4829,27.897356,3270.2815};
+					azimut=15.798426;
+					special="NONE";
+					id=5;
+					side="WEST";
+					vehicle="USMC_Soldier";
+					rank="MAJOR";
+					skill=0.60000002;
+					text="US_Soldier";
+				};
+			};
+			class Waypoints
+			{
+				items=1;
+				class Item0
+				{
+					position[]={4363.2974,27,3250.4617};
+					formation="STAG COLUMN";
+					speed="LIMITED";
+					combat="CARELESS";
+					visible=1;
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+			};
+		};
+		class Item2
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={4293.7007,34.47628,3173.7856};
+					id=9;
+					side="LOGIC";
+					vehicle="Logic";
+					leader=1;
+					skill=0.60000002;
+					text="shoot";
+				};
+			};
+		};
+	};
+	class Vehicles
+	{
+		items=1;
+		class Item0
+		{
+			position[]={4337.9097,27,3191.2654};
+			azimut=-234.01801;
+			id=10;
+			side="EMPTY";
+			vehicle="UAZ_CDF";
+			skill=0.60000002;
+		};
+	};
+	class Markers
+	{
+		items=8;
+		class Item0
+		{
+			position[]={3404.0918,19.465239,3685.1692};
+			name="123";
+			text="enemy";
+			type="mil_objective";
+			angle=-146.20076;
+		};
+		class Item1
+		{
+			position[]={3466.7014,20.145733,3711.6191};
+			name="ya";
+			text="you";
+			type="mil_flag";
+			angle=-107.33263;
+		};
+		class Item2
+		{
+			position[]={4336.4985,27,3193.9624};
+			name="Start";
+			text="Start";
+			type="Faction_RU";
+		};
+		class Item3
+		{
+			position[]={4346.9185,27,3235.6541};
+			name="enemies";
+			text="enemy";
+			type="mil_objective";
+		};
+		class Item4
+		{
+			position[]={4363.0557,27,3250.6526};
+			name="enemies_1";
+			text="enemy";
+			type="mil_objective";
+		};
+		class Item5
+		{
+			position[]={4360.8955,27,3255.2283};
+			name="enemies_2";
+			text="enemy";
+			type="mil_objective";
+		};
+		class Item6
+		{
+			position[]={4367.1216,27.90971,3270.4812};
+			name="enemies_3";
+			text="enemy";
+			type="mil_objective";
+		};
+		class Item7
+		{
+			position[]={4377.7954,27.437725,3264.3801};
+			name="enemies_4";
+			text="enemy";
+			type="mil_objective";
+		};
+	};
+	class Sensors
+	{
+		items=1;
+		class Item0
+		{
+			position[]={4326.9297,27,3191.9956};
+			activationBy="ALPHA";
+			repeating=1;
+			interruptable=1;
+			age="UNKNOWN";
+			expActiv="shoot action [""useWeapon"", recorder, recorder, 0];";
+			class Effects
+			{
+			};
+		};
+	};
+};
+class Intro
+{
+	addOns[]=
+	{
+		"utes"
+	};
+	addOnsAuto[]=
+	{
+		"utes"
+	};
+	randomSeed=9189282;
+	class Intel
+	{
+		startWeather=0.40000001;
+		forecastWeather=0.25;
+		year=2008;
+		month=10;
+		day=11;
+		hour=14;
+		minute=20;
+	};
+};
+class OutroWin
+{
+	addOns[]=
+	{
+		"utes"
+	};
+	addOnsAuto[]=
+	{
+		"utes"
+	};
+	randomSeed=16541957;
+	class Intel
+	{
+		startWeather=0.40000001;
+		forecastWeather=0.25;
+		year=2008;
+		month=10;
+		day=11;
+		hour=14;
+		minute=20;
+	};
+};
+class OutroLoose
+{
+	addOns[]=
+	{
+		"utes"
+	};
+	addOnsAuto[]=
+	{
+		"utes"
+	};
+	randomSeed=13055428;
+	class Intel
+	{
+		startWeather=0.40000001;
+		forecastWeather=0.25;
+		year=2008;
+		month=10;
+		day=11;
+		hour=14;
+		minute=20;
+	};
+};
