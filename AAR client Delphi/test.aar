@@ -1,0 +1,84 @@
+MHL_AAR_update_mrk = {
+_frame = this select 6;
+_vrema = this select 7;
+_mtype = this select 8;
+_unit = this select 0;
+_upos = this select 1;
+_uname = this select 2;
+_ucrew = this select 3;
+_udir = this select 4;
+_udamage = this select 5;
+_unit setMarkerPos %2; _unit setMarkerDir _udir; _unit setMarkerText format["%1 (%2) d:%3",_uname, _ucrew, _udamage];_unit setMarkerType _mtype; sleep MHL_fps};
+};
+MHL_AAR_create_mrk = {
+_unit = this select 0;
+_unit = createMarker [format["%1",_unit],[0,0,0]]; _unit setMarkerType "dot"; _unit setMarkerText "_unit";
+};
+MHL_AAR_delete_mrk = {
+_unit = this select 0;
+_unit = deleteMarker _unit;
+};
+[e1] call MHL_AAR_create_mrk
+[e2] call MHL_AAR_create_mrk
+[e3] call MHL_AAR_create_mrk
+[e4] call MHL_AAR_create_mrk
+[e5] call MHL_AAR_create_mrk
+[e6] call MHL_AAR_create_mrk
+[e7] call MHL_AAR_create_mrk
+[e8] call MHL_AAR_create_mrk
+[e9] call MHL_AAR_create_mrk
+[e10] call MHL_AAR_create_mrk
+[e11] call MHL_AAR_create_mrk
+[e12] call MHL_AAR_create_mrk
+[e13] call MHL_AAR_create_mrk
+[e14] call MHL_AAR_create_mrk
+[e15] call MHL_AAR_create_mrk
+[e16] call MHL_AAR_create_mrk
+[e17] call MHL_AAR_create_mrk
+[e18] call MHL_AAR_create_mrk
+[e19] call MHL_AAR_create_mrk
+[e20] call MHL_AAR_create_mrk
+[e21] call MHL_AAR_create_mrk
+[e22] call MHL_AAR_create_mrk
+[e23] call MHL_AAR_create_mrk
+[e24] call MHL_AAR_create_mrk
+[e25] call MHL_AAR_create_mrk
+[e26] call MHL_AAR_create_mrk
+[e27] call MHL_AAR_create_mrk
+[e28] call MHL_AAR_create_mrk
+[e29] call MHL_AAR_create_mrk
+[e30] call MHL_AAR_create_mrk
+[e31] call MHL_AAR_create_mrk
+[e32] call MHL_AAR_create_mrk
+[e33] call MHL_AAR_create_mrk
+[e34] call MHL_AAR_create_mrk
+[e35] call MHL_AAR_create_mrk
+[e36] call MHL_AAR_create_mrk
+[e37] call MHL_AAR_create_mrk
+[e38] call MHL_AAR_create_mrk
+[e39] call MHL_AAR_create_mrk
+[e40] call MHL_AAR_create_mrk
+[e41] call MHL_AAR_create_mrk
+[e42] call MHL_AAR_create_mrk
+[e43] call MHL_AAR_create_mrk
+[e44] call MHL_AAR_create_mrk
+[e45] call MHL_AAR_create_mrk
+[e46] call MHL_AAR_create_mrk
+[e47] call MHL_AAR_create_mrk
+[e48] call MHL_AAR_create_mrk
+[e49] call MHL_AAR_create_mrk
+[e50] call MHL_AAR_create_mrk
+[e51] call MHL_AAR_create_mrk
+[e52] call MHL_AAR_create_mrk
+[e53] call MHL_AAR_create_mrk
+[e54] call MHL_AAR_create_mrk
+[e55] call MHL_AAR_create_mrk
+[e56] call MHL_AAR_create_mrk
+[e57] call MHL_AAR_create_mrk
+[e58] call MHL_AAR_create_mrk
+[e59] call MHL_AAR_create_mrk
+[e60] call MHL_AAR_create_mrk
+[e5] call MHL_AAR_update_mrk
+[e6] call MHL_AAR_update_mrk
+[e7] call MHL_AAR_update_mrk
+[e9] call MHL_AAR_update_mrk
