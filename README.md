@@ -11,7 +11,7 @@ Honestly, due to personal reasons, I cannot invest much into that project. No ti
 But I brought that to you, because received a lot of interest and feedback from the community. But when I wanted to share it with the community, I realized the dev-heaven is gone with all my files. And found no backup files. So here it is.
 
 ## RU
-Когда был Sickboy, залил этот проект на его dev-heaven. Тему поднял в разных местах. Потом периодически народ спрашивал, интересовался. Но потом я отошёл от армы и не заметил, как dev-heaven исчез. Бэкапов никаких не осталось. Я думал всё. Но недавно нашёл старый винт на балконе, запустил, а там это. Пусть лежит для истории. Вдруг кому пригодится в разработках.
+Когда ещё был Sickboy и его Six Updater, я залил этот проект на его dev-heaven, он великодушно захостил там репозиторий. Тему поднял в разных местах. Потом периодически народ спрашивал, интересовался. Но потом я отошёл от армы и не заметил, как dev-heaven исчез. Бэкапов никаких не осталось. Я думал всё. Но недавно нашёл старый винт на балконе, запустил, а там это. Пусть лежит для истории. Вдруг кому пригодится в разработках.
 
 ### I compiled here all other resources I could find.
 
