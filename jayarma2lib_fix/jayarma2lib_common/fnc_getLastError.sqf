@@ -1,1 +1,0 @@
-["WriteLog", (_this select 0), "", ""] call jayarma2lib_fnc_callExtension;

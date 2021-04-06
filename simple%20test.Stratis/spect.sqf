@@ -1,1 +1,0 @@
-foo = [player, player, "null"] execVM "f_spect\specta.sqf";
