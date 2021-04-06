@@ -1,5 +1,7 @@
 # Arma2 After Action Review - Recording and Playing your battles.
 
+If you are looking for AAR for Arma 3, visit this project https://github.com/zvukoper/Arma3_AAR
+
 ### This project have been lost in years (after dev-heaven disappeard) and just a mirculous coincedence brought it back from oblivion. I was cleaning up old computer grabage and found a rusty HDD. I plugged it in and was able to recover this.
 
 I fully understand that it may be too late and the code may be useless. I save it here just for the legacy and old times :)
